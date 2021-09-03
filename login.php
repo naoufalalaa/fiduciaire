@@ -10,9 +10,19 @@ include_once './controllers/user/login/loginFidu.php';
 
 <div align="center" class="uk-margin-large">
     <div class="uk-width-2-3@m uk-width-5-6 uk-card uk-card-default-trans uk-card-body">
+        <?php
+            if(isset($success) && $success == 1 ){
+        ?>
+            <div class="uk-alert uk-alert-success"uk-alert>
+                <a class="uk-alert-close" uk-close></a>
+                <p>Vous êtes désormé inscrit</p>
+            </div>
+        <?php
+            }
+        ?>
         <h3>Inscription <?=ucfirst($type) ?></h3>
         <hr>
-        <form  method="post">
+        <form method="post">
             <div class="uk-text-left" uk-grid>
                 <div class="uk-width-1-2@s">
                     <input required class="uk-input" placeholder="Prénom" name="prenom" type="text">
