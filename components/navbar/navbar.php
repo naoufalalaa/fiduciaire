@@ -10,19 +10,19 @@
 <div class="uk-navbar-center">
 
     <ul class="uk-navbar-nav">
-        <li class="uk-active"><a href="index.php">Home</a></li>
+        <li class="uk-active"><a href="./index.php">Home</a></li>
         <li>
             <a href="#">Action Entreprise <span uk-icon="icon: chevron-down"></span></a>
             <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li><a href="#">Créer votre Entreprise</a></li>
-                    <li><a href="#">Plan Comptable</a></li>
-                    <li><a href="#">Déménagement siège</a></li>
-                    <li><a href="#">Domiciliation</a></li>
+                    <li><a href="./actionENT.php?type=creerENT">Créer votre Entreprise</a></li>
+                    <li><a href="./actionENT.php?type=PlanComptable">Plan Comptable</a></li>
+                    <li><a href="./actionENT.php?type=Demenagement">Déménagement siège</a></li>
+                    <li><a href="./actionENT.php?type=Domiciliation">Domiciliation</a></li>
                 </ul>
             </div>
         </li>
-        <li><a href="#">Blog Entrepreneur</a></li>
+        <li><a href="./blog.php">Blog Entrepreneur</a></li>
     </ul>
 
 </div>

@@ -18,17 +18,17 @@
             </div>
             
             <ul class="uk-nav uk-margin-xlarge-top uk-nav-default">
-                <li class="uk-active"><a href="#">Home</a></li>
+                <li><a href="./index.php">Home</a></li>
                 <li class="uk-parent">
                     <a href="#">Action Entreprise</a>
                     <ul class="uk-nav-sub">
-                        <li><a href="#">Créer votre Entreprise</a></li>
-                        <li><a href="#">Plan Comptable</a></li>
-                        <li><a href="#">Déménagement siège</a></li>
-                        <li><a href="#">Domiciliation</a></li>
+                        <li><a href="./actionENT.php?type=creerENT">Créer votre Entreprise</a></li>
+                        <li><a href="./actionENT.php?type=PlanComptable">Plan Comptable</a></li>
+                        <li><a href="./actionENT.php?type=Demenagement">Déménagement siège</a></li>
+                        <li><a href="./actionENT.php?type=Domiciliation">Domiciliation</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Blog Entrepreneur</a></li>
+                <li><a href="./blog.php">Blog Entrepreneur</a></li>
                 <li class="uk-nav-divider"></li>
                 <li class="uk-parent">
 
@@ -42,8 +42,8 @@
             ?>
                     <a href="#">S'inscrire</a>
                     <ul class="uk-nav-sub">
-                    <li><a href="signup.php?type=entrepreneur">Entrepreneur</a></li>
-                    <li><a href="signup.php?type=fiduciaire">Fiduciaire</a></li>
+                        <li><a href="signup.php?type=entrepreneur">Entrepreneur</a></li>
+                        <li><a href="signup.php?type=fiduciaire">Fiduciaire</a></li>
                     </ul>
             <?php
                 }

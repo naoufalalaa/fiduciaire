@@ -66,3 +66,36 @@ body{
 .uk-card-default-trans{
     background-color: rgba(255, 255, 255, 0.8)!important;
 }
+
+.uk-card-fidu{
+    background-color: rgba(180, 148, 255, 0.7);
+}
+
+.wrapp{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#avatar{
+    background-color: rgba(164, 127, 252, 0.9);
+    border: solid 2px rgba(134, 88, 243, 0.9);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.icon{
+    position: absolute;
+    color: rgb(118, 68, 236);
+}
+ul{
+    list-style: none!important;
+}
+.uk-button-user{
+    background-color: rgba(134, 88, 243, 0.8)!important;
+    transition: all ease 500ms;
+}
+.uk-button-user:hover{
+    background-color: rgba(134, 88, 243, 1)!important;
+    transition: all ease 500ms;
+}

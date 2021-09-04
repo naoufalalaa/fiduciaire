@@ -43,10 +43,12 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id'])){
         if($type=='fiduciaire'){
             $attestation = htmlspecialchars(($_POST['attestation']));
             $bio = htmlspecialchars(ucfirst($_POST['bio']));
+            $specialite = htmlspecialchars(ucfirst($_POST['specialite']));
 
-            $req=$bdd->prepare('INSERT INTO fiduciaire(id_user,attestation,Bio) values(?,?,?)');
+            $req=$bdd->prepare('INSERT INTO fiduciaire(id_user,attestation,specialite,Bio) values(?,?,?)');
             $req->execute(array($id,
                                 $attestation,
+                                $specialite,
                                 $bio
                             ));
             $success=1;

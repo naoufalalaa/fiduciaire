@@ -82,7 +82,14 @@ include_once './controllers/user/login/signupFidu.php';
                     <div class="uk-width-1-2@s">
                         <input required name="attestation" type="text" class="uk-input" placeholder="Attestation">
                     </div>       
-                    <div class="uk-width-1-2@s">
+                    <div class="uk-width-1-2@s uk-text-left">
+                        <p><strong>Spécialité</strong></p>
+                        <label><input name="specialite" value="Création d'entreprise" class="uk-checkbox" type="checkbox" checked> Création d'entreprise</label><br>
+                        <label><input name="specialite" value="Plan Comptable" class="uk-checkbox" type="checkbox"> Plan Comptable</label><br>
+                        <label><input name="specialite" value="Déménagement siège" class="uk-checkbox" type="checkbox"> Déménagement siège</label><br>
+                        <label><input name="specialite" value="Domiciliation" class="uk-checkbox" type="checkbox"> Domiciliation</label>
+                    </div>       
+                    <div class="uk-width-1-1@s">
                         <textarea name="bio" type="text" class="uk-textarea" placeholder="Bio"></textarea>
                     </div> 
                     <?php }?>
