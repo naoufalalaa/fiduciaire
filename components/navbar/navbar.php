@@ -39,8 +39,8 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id'])){
             <a href="#">S'inscrire <span uk-icon="icon: chevron-down"></span></a>
             <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li><a href="signup.php?type=entrepreneur">Entrepreneur</a></li>
-                    <li><a href="signup.php?type=fiduciaire">Fiduciaire</a></li>
+                    <li><a href="signup.php?type=entrepreneur"><i class="fas fa-user-tie"></i> Entrepreneur</a></li>
+                    <li><a href="signup.php?type=fiduciaire"><i class="fas fa-tools"></i> Fiduciaire</a></li>
                 </ul>
             </div>
 <?php

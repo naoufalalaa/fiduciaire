@@ -35,9 +35,10 @@
             <small>Copyright © Naoufal ALAA</small>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/components/parallax.min.js" integrity="sha512-MGyLEw3Pg0p4kkhtKenaQC+kuu1/6qDIBS8jpJbRea2kw6Zf92gfg6blceLq23aAkSTTmDgQBvPkA6ZtR122wQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit.min.js" integrity="sha512-OSTRfXHexzhPF8VccjHh1s3/9nXkvzZVoctPeA6YGPYhaPoVEwXvXd74IuiwpUTp/OpIoMqm5dEgX9W2xK+ICg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit-icons.min.js" integrity="sha512-pCn4YSCG+11Nq6MHxgcmh6IpaSMYbuJmXahX7AWINvUYXpK0yWQGGGeGBiGU23wLfnqEfnSC0+JKYdHdD8Xlsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/components/parallax.min.js" integrity="sha512-MGyLEw3Pg0p4kkhtKenaQC+kuu1/6qDIBS8jpJbRea2kw6Zf92gfg6blceLq23aAkSTTmDgQBvPkA6ZtR122wQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.2/js/uikit-icons.min.js" integrity="sha512-pCn4YSCG+11Nq6MHxgcmh6IpaSMYbuJmXahX7AWINvUYXpK0yWQGGGeGBiGU23wLfnqEfnSC0+JKYdHdD8Xlsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
