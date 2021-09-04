@@ -1,5 +1,6 @@
 <?php
 include './components/headers/head.php';
+include './controllers/user/home.php'
 ?>
 <div align="center" class="uk-secondary uk-padding-small">
     <button class="uk-button uk-button-danger"><small>Announcements !</small></button> <small>Get ready for a brand new Adventure on our website!</small>
@@ -51,7 +52,7 @@ include './components/navbar/mobile.php'
                             <h3>01 .</h3>
                         </div>
                         <div>
-                            <h3>+21</h3>
+                            <h3>+<?=$nbrENT?></h3>
                         </div>
                         <div class="uk-padding-small uk-text-right uk-position-bottom-right">
                             <h6>Entreprises</h6>
@@ -64,7 +65,7 @@ include './components/navbar/mobile.php'
                             <h3>02 .</h3>
                         </div>
                         <div>
-                            <h3>+2001</h3>
+                            <h3>+<?=$nbrFIDU ?></h3>
                         </div>
                         <div class="uk-padding-small uk-text-right uk-position-bottom-right">
                             <h6>Fiduciaires</h6>
@@ -77,7 +78,7 @@ include './components/navbar/mobile.php'
                             <h3>03 .</h3>
                         </div>
                         <div>
-                            <h3>+2022</h3>
+                            <h3>+<?=$nbrFIDU+$nbrENT?></h3>
                         </div>
                         <div class="uk-padding-small uk-text-right uk-position-bottom-right">
                             <h6>Total utilisateurs</h6>
@@ -99,8 +100,8 @@ include './components/navbar/mobile.php'
                         <li>
                             <div>
                                 <div class="uk-card uk-card-default uk-box-shadow-medium">
-                                    <div class="uk-card-media-top">
-                                        <img src="./assets/img/light.jpg" alt="">
+                                    <div class="uk-card-media-top uk-cover-container uk-height-small">
+                                        <img src="./assets/img/06.jpg" uk-cover alt="">
                                     </div>
                                     <div class="uk-card-body uk-text-left">
                                         <h3 class="uk-card-title">Media Top</h3>
@@ -112,8 +113,8 @@ include './components/navbar/mobile.php'
 
                         <li>
                             <div class="uk-card uk-card-default uk-box-shadow-medium">
-                                <div class="uk-card-media-top">
-                                    <img src="./assets/img/dark.jpg" alt="">
+                                <div class="uk-card-media-top uk-cover-container uk-height-small">
+                                    <img src="./assets/img/SL-031821-41530-15.jpg" uk-cover alt="">
                                 </div>
                                 <div class="uk-card-body uk-text-left">
                                     <h3 class="uk-card-title">Media Top</h3>
@@ -124,8 +125,8 @@ include './components/navbar/mobile.php'
 
                         <li>
                             <div class="uk-card uk-card-default uk-box-shadow-medium">
-                                <div class="uk-card-media-top">
-                                    <img src="./assets/img/light.jpg" alt="">
+                                <div class="uk-card-media-top uk-cover-container uk-height-small">
+                                    <img src="./assets/img/21201373.jpg" uk-cover alt="">
                                 </div>
                                 <div class="uk-card-body uk-text-left">
                                     <h3 class="uk-card-title">Media Top</h3>
@@ -136,8 +137,8 @@ include './components/navbar/mobile.php'
 
                         <li>
                             <div class="uk-card uk-card-default uk-box-shadow-medium">
-                                <div class="uk-card-media-top">
-                                    <img src="./assets/img/dark.jpg" alt="">
+                                <div class="uk-card-media-top uk-cover-container uk-height-small">
+                                    <img src="./assets/img/dark.jpg" uk-cover alt="">
                                 </div>
                                 <div class="uk-card-body uk-text-left">
                                     <h3 class="uk-card-title">Media Top</h3>
@@ -145,7 +146,7 @@ include './components/navbar/mobile.php'
                                 </div>
                             </div>
                         </li>
-
+                        
                     </ul>
                     <a style="color: black;" class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
                     <a style="color: black;" class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>

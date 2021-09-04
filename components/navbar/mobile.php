@@ -42,8 +42,8 @@
             ?>
                     <a href="#">S'inscrire</a>
                     <ul class="uk-nav-sub">
-                    <li><a href="login.php?type=entrepreneur">Entrepreneur</a></li>
-                    <li><a href="login.php?type=fiduciaire">Fiduciaire</a></li>
+                    <li><a href="signup.php?type=entrepreneur">Entrepreneur</a></li>
+                    <li><a href="signup.php?type=fiduciaire">Fiduciaire</a></li>
                     </ul>
             <?php
                 }

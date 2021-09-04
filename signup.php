@@ -3,7 +3,7 @@ include_once './controllers/connexion.php';
 include './components/headers/head.php';
 include './components/navbar/navbar.php';
 include './components/navbar/mobile.php';
-include_once './controllers/user/login/loginFidu.php';
+include_once './controllers/user/login/signupFidu.php';
 ?>
 
 
