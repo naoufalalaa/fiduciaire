@@ -43,14 +43,26 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id'])){
         if($type=='fiduciaire'){
             $attestation = htmlspecialchars(($_POST['attestation']));
             $bio = htmlspecialchars(ucfirst($_POST['bio']));
-            $specialite = htmlspecialchars(ucfirst($_POST['specialite']));
-
-            $req=$bdd->prepare('INSERT INTO fiduciaire(id_user,attestation,specialite,Bio) values(?,?,?)');
+            $specialite = $_POST['specialite'];
+            $spe="";
+            foreach($specialite as $chk1){
+                $spe .=$chk1.',';
+            }
+            $spe=htmlspecialchars($spe);
+            $req=$bdd->prepare('INSERT INTO fiduciaire(id_user,attestation,specialite,Bio) values(?,?,?,?)');
             $req->execute(array($id,
                                 $attestation,
-                                $specialite,
+                                $spe,
                                 $bio
                             ));
+            if(isset($_FILES['jointeCIN']) AND !empty($_FILES['jointeCIN']['name'])) {
+                if(exif_imagetype($_FILES['jointeCIN']['tmp_name']) == 2) {
+                   $chemin = './assets/fiduciaire/'.$id.'_F.jpg';
+                   move_uploaded_file($_FILES['jointeCIN']['tmp_name'], $chemin);
+                } else {
+                   $message = 'Votre image doit être au format jpg';
+                }
+            }
             $success=1;
         }
     }

@@ -19,7 +19,7 @@ include './controllers/user/actionENT.php'
             $specialites=explode(',',$f['specialite']);
     ?>
     <div align="center">
-        <div class="uk-card-fidu uk-width-5-6 uk-padding-small uk-light uk-box-shadow-medium">
+        <div class="uk-card-fidu uk-margin uk-width-5-6 uk-padding-small uk-light uk-box-shadow-medium">
             <div class="uk-grid-small" uk-grid>
                 <div align="center" uk-grid class="uk-width-1-3@m uk-text-left@l uk-text-center">
                     <div class="wrapp uk-width-1-2@l">
@@ -59,12 +59,12 @@ include './controllers/user/actionENT.php'
                                 <ul class="uk-margin-remove">
                                     <?php
                                         $i=0;
-                                        do{
+                                        while(!empty($specialites[$i])){
                                     ?>
                                     <li>- <?=$specialites[$i]?></li>
                                     <?php 
                                         $i++;  
-                                        }while($specialites[$i]);
+                                        }
                                     ?>
                                 </ul>
                             </small>
