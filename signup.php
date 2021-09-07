@@ -84,7 +84,7 @@ include_once './controllers/user/login/signupFidu.php';
                     </div>       
                     <div class="uk-width-1-2@s uk-text-left">
                         <p><strong>Spécialité</strong></p>
-                        <label><input name="specialite[]" value="Création d'entreprise" class="uk-checkbox" type="checkbox" checked> Création d'entreprise</label><br>
+                        <label><input name="specialite[]" value="Créer entreprise" class="uk-checkbox" type="checkbox" checked> Création d'entreprise</label><br>
                         <label><input name="specialite[]" value="Plan Comptable" class="uk-checkbox" type="checkbox"> Plan Comptable</label><br>
                         <label><input name="specialite[]" value="Déménagement siège" class="uk-checkbox" type="checkbox"> Déménagement siège</label><br>
                         <label><input name="specialite[]" value="Domiciliation" class="uk-checkbox" type="checkbox"> Domiciliation</label>
