@@ -56,8 +56,9 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id'])){
                                 $bio
                             ));
             if(isset($_FILES['jointeCIN']) AND !empty($_FILES['jointeCIN']['name'])) {
+                $type = explode('.',$_FILES['jointeCIN']['name'])[1];
                 if(exif_imagetype($_FILES['jointeCIN']['tmp_name']) == 2) {
-                   $chemin = './assets/fiduciaire/'.$id.'_F.jpg';
+                   $chemin = './assets/fiduciaire/'.$id.'_F.'.$type;
                    move_uploaded_file($_FILES['jointeCIN']['tmp_name'], $chemin);
                 } else {
                    $message = 'Votre image doit être au format jpg';

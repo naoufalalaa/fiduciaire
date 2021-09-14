@@ -1,4 +1,4 @@
 <?php
 session_start();
-$bdd = new PDO("mysql:host=127.0.0.1;dbname=fidu;charset=utf8", "root", "");
+$bdd = new PDO("mysql:host=66.33.202.87;dbname=fiduca;charset=utf8", "fidu", "fidu1234");
 ?>

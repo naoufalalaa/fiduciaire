@@ -22,7 +22,7 @@ include_once './controllers/user/login/signupFidu.php';
         ?>
         <h3>Inscription <?=ucfirst($type) ?></h3>
         <hr>
-        <form method="post">
+        <form enctype="multipart/form-data" method="post">
             <div class="uk-text-left" uk-grid>
                 <div class="uk-width-1-2@s">
                     <input required class="uk-input" placeholder="Prénom" name="prenom" type="text">
